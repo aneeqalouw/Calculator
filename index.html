@@ -7,42 +7,25 @@
     <title>Calculator</title>
 </head>
 <body>
-    <main>
-        <div class="container">
-            <div class="input-wrapper">
-                <input type="text">
-            </div>
-            <div class="row1">
-                <button>AC</button>
-                <button>+/-</button>
-                <button>%</button>
-                <button>/</button>
-            </div>
-            <div class="row2">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>x</button>
-            </div>
-            <div class="row3">
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-            </div>
-            <div class="row4">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-            </div>
-            <div class="row5">
-                <button>0</button>
-                <button>.</button>
-                <button>Del</button>
-                <button>=</button>
-            </div>
-        </div>
-    </main>
+    <div class="container">
+        <input id="input" type="text" readonly>
+        <button type="button" id="btnPlus" value="+">+</button>
+        <button type="button" id="btnMinus" value="-">-</button>
+        <button type="button" id="btnTimes" value="x">x</button>
+        <button type="button" id="btnDivide" value="/">/</button>
+        <button type="button" id="btn7" value="7">7</button>
+        <button type="button" id="btn8" value="8">8</button>
+        <button type="button" id="btn9" value="9">9</button>
+        <button type="button" id="btn4" value="4">4</button>
+        <button type="button" id="btn5" value="5">5</button>
+        <button type="button" id="btn6" value="6">6</button>
+        <button type="button" id="btn1" value="1">1</button>
+        <button type="button" id="btn2" value="2">2</button>
+        <button type="button" id="btn3" value="3">3</button>
+        <button type="button" id="btn0" value="0">0</button>
+        <button type="button" id="btnPoint" value=".">.</button>
+        <button type="button" id="btnAC" value="AC">AC</button>
+        <button type="button" id="btnEqual" data-equal value="=">=</button>
+    </div>
 </body>
 </html>

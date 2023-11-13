@@ -5,6 +5,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    /* width: 30rem; */
+    aspect-ratio: 1/1;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 15px;
+    border-radius: 15px;
+    background-color: deeppink;
+}
+
+.container :first-child {
+    grid-column: 1/-1;
+    width: 100%;
+}
+
+button[data-equal] {
+    grid-column: 4;
+    grid-row: 3/-1;
+    
+}
+
+/* body{
+    text-align: center;
+}
 .container{
     position: relative;
     top: 50%;
@@ -25,7 +55,7 @@
 .row1 button{
     width: 120px;
     height: 70px;
-    border-radius: 10px;
+    border-radius: 2000px;
 
 }
 .row2 button{
@@ -52,3 +82,8 @@
     border-radius: 10px;
 
 }
+#calc button {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+} */
